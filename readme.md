@@ -95,6 +95,11 @@ Setup **__package.json__** file
     "copy-webpack-plugin": "^4.5.2",
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
   }
 }
 ```

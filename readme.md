@@ -72,7 +72,7 @@ Poject structure
 Setup **__package.json__** file
 ```javascript
 {
-  "name": "zoomcharts_test",
+  "name": "zoomcharts-babel",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/bundle.js",

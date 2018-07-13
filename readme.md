@@ -85,7 +85,7 @@ Setup **__package.json__** file
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "zoomcharts": "^1.2.5"
+     "@dvsl/zoomcharts": "^1.18.4"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -116,7 +116,8 @@ module.exports = {
     plugins: [
         new CopyWebpackPlugin([
             {
-                from: './node_modules/zoomcharts'
+                from: './node_modules/@dvsl/zoomcharts/lib/assets',
+                to: 'assets'
             }
         ])
     ],

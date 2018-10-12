@@ -1,4 +1,4 @@
-import zc from "zoomcharts" 
+import zc from "@dvsl/zoomcharts" 
 
 // 
 let TimeChart = zc.TimeChart;

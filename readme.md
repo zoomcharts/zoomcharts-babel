@@ -114,7 +114,7 @@ module.exports = {
     plugins: [
         new CopyWebpackPlugin([
             {
-                from: './node_modules/@dvsl/zoomcharts/lib/assets',
+                from: './node_modules/@dvsl/zoomcharts/<path/to/assets/folder>',
                 to: 'assets'
             }
         ])

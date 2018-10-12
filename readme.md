@@ -33,9 +33,7 @@ ZoomCharts can be loaded as an ES6 module with the use of transpilers - Babel an
 
 ### Babel
 ```javascript
-import zc from "@dvsl/zoomcharts" 
-
-let TimeChart = zc.TimeChart;
+import "@dvsl/zoomcharts"
 
 //Generate the chart
 var t = new TimeChart({

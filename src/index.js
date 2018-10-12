@@ -1,10 +1,4 @@
-import zc from "@dvsl/zoomcharts" 
-
-// 
-let TimeChart = zc.TimeChart;
-let PieChart = zc.PieChart;
-let GeoChart = zc.GeoChart;
-let FacetChart = zc.FacetChart;
+import "@dvsl/zoomcharts"
 
 // Zoomcharts license and license key
 window.ZoomChartsLicense = "";
@@ -13,13 +7,14 @@ window.ZoomChartsLicenseKey = "";
 // 
 var t = new TimeChart({
     container: document.getElementById("chartTimeChart"),
+    assetsUrlBase: './dist/<path/to/assets/folder>/',
     area: { height: 350 },
     data: {
         preloaded: {
             values: [
                 ["2017-01-09 00:00:00", 100],
                 ["2017-01-20", 200],
-                [1485907200, 300],
+                ["2017-02-01 02:00:00", 300],
                 ["2017-02-05 15:20:00", 400],
                 ["2017-02-15 22:59:59", 500]
             ],
@@ -32,6 +27,7 @@ var t = new TimeChart({
 // 
 var p = new PieChart({
     container: document.getElementById("chartPieChart"),
+    assetsUrlBase: './dist/<path/to/assets/folder>/',
     area: { height: 350 },
     data: {
         preloaded: {
@@ -51,6 +47,7 @@ var p = new PieChart({
 // 
 var gc = new GeoChart({
     container: document.getElementById("chartGeoChart"),
+    assetsUrlBase: './dist/<path/to/assets/folder>/',
     area: { height: 500 },
     data: {
         preloaded: {
@@ -97,6 +94,7 @@ var gc = new GeoChart({
 // 
 var f = new FacetChart({
     container: document.getElementById("chartFacetChart"),
+    assetsUrlBase: './dist/<path/to/assets/folder>',
     area: { height: 350 },
     data: {
         preloaded: {

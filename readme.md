@@ -85,7 +85,7 @@ Setup **__package.json__** file
   "author": "",
   "license": "ISC",
   "dependencies": {
-     "@dvsl/zoomcharts": "^1.18.4"
+
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-
+    "@dvsl/zoomcharts": "^1.18.9-nightly"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

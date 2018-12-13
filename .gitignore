@@ -4,4 +4,4 @@
 **/webpack.config.js
 **/.babelrc
 **/build
-**/dist
+/dist
